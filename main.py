@@ -5,6 +5,6 @@ todos = []
 while True:
 
     todo = input(user_prompt)
-    print(todo.title())
+    todo.title()
     todos.append(todo)
     
